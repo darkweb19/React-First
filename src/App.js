@@ -5,6 +5,7 @@ import List from "./pages/List";
 
 export default function App() {
 	const [page, setPage] = useState("list");
+
 	return (
 		<div>
 			<Navbar setPage={setPage} />
